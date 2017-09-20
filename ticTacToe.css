@@ -15,6 +15,7 @@ table {
 	color: navy;
 	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
 }
+
 td {
 	height: 70px;
 	width: 70px;
@@ -24,6 +25,7 @@ td {
 	border: 1px solid #00f;
 	background-color: transparent;
 }
+
 td:nth-child(1) {
 	border-left-style: none;
 }
