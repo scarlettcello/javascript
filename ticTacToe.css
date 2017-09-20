@@ -1,0 +1,52 @@
+/* CSS rules unique to tictacToe.html page */
+body {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+}
+
+table {
+	margin: 25px auto;
+	padding: 18px;
+	background-color: white;
+	color: navy;
+	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+td {
+	height: 70px;
+	width: 70px;
+	color: navy;
+	font-size: 3.2em;
+	font-family: sans-serif;
+	border: 1px solid #00f;
+	background-color: transparent;
+}
+td:nth-child(1) {
+	border-left-style: none;
+}
+
+td:nth-child(3) {
+	border-right-style: none;
+}
+
+tr:nth-child(1)>td {
+	border-top-style: none;
+}
+
+tr:nth-child(3)>td {
+	border-bottom-style: none;
+}
+
+button {
+	border: none;
+	color: white;
+	padding: 10px;
+	background-color: green;
+}
+
+address {
+	text-align: center;
+}
